@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.btn{
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+body{
+    background-color: gray;
+    color: rgb(199, 199, 199);
+    
+}
+
+h1{
+    position: static;
+}
+.container{
+
+    display: flex;
+    padding: 4px;
+    margin: 3px;
+    justify-content: space-around;
+   
+}
+
+.child{
+    padding: 25px;
+    margin: 5px;
+}
+.wt{
+    background-color: white;
+}
+
+P{
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+#sp{
+    padding: 1px;
+    margin: 6px;
+}
+
+.bi{
+    padding: 4px;
+}
+
+
+li::before{
+
+
+    content: "\00BB";
+} 

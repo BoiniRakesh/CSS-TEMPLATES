@@ -1,0 +1,42 @@
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 70vh;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    color: blueviolet;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+   
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 25px ;
+    margin: 10px ;
+    border-radius: 6px;
+}
+
+.hd{
+    text-align: center;
+    color: white;
+}

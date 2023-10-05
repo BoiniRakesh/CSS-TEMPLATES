@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin: 60px;  
+    
+}
+/* div#ptn{
+    position: absolute;
+    right: 500px;
+    top: -20px;
+} */
+
+.child{
+    justify-content: center;
+    padding-left: 25px;
+    padding: 10px 25px;
+}
+.child2{
+    margin: 7px;
+    
+}
+::placeholder{
+    background-color: rgb(196, 190, 190);
+}
